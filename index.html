@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>我的个人主页</title>
+  <!-- 下面是样式代码 -->
+  <style>
+    body {
+        background-color: #f0f2f5; /* 背景颜色：浅灰蓝 */
+        font-family: "微软雅黑", sans-serif; /* 字体 */
+        display: flex; /* 居中布局 */
+        justify-content: center;
+        padding-top: 100px;
+    }
+    .card {
+        background-color: white; /* 卡片背景：白色 */
+        padding: 40px; /* 内边距 */
+        border-radius: 10px; /* 圆角 */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 阴影 */
+        text-align: center; /* 文字居中 */
+    }
+    h1 { color: #333; }
+    p { color: #666; }
+    button {
+        background-color: #007bff; /* 按钮颜色：蓝色 */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover { background-color: #0056b3; } /* 鼠标放上去变色 */
+  </style>
+</head>
+<body>
+<div class="card">
+  <h1>👋 飞哥，我是 [你的大宝]</h1>
+  <p>㊗️我们天天开心,身体健康,万事如意</p>
+  <button onclick="sayHello()">点我一下</button>
+</div>
+</body>
+</html>
